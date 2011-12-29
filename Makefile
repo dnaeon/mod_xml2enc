@@ -2,7 +2,7 @@
 # Date created:				02 March 2011
 # Whom:					Marin Atanasov Nikolov <dnaeon@gmail.com>
 #
-# $FreeBSD$
+# $FreeBSD: ports/www/mod_xml2enc/Makefile,v 1.2 2011/08/20 17:27:48 ohauer Exp $
 #
 
 PORTNAME=	mod_xml2enc
@@ -17,7 +17,7 @@ COMMENT=	Apache module for converting encoding before and/or after a filter run
 
 MAKE_JOBS_SAFE=	yes
 
-USE_APACHE=	2.2+
+USE_APACHE=	22+
 AP_FAST_BUILD=	YES
 AP_GENPLIST=	YES
 SHORTMODNAME=	xml2enc
